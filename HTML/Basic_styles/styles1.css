@@ -1,0 +1,51 @@
+#first{
+    color: black;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 44px;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: underline;
+    /*text-shadow: 5px 10px 2px steelblue;*/
+    text-align: center;
+    letter-spacing: 20px;
+    word-spacing: 40px;
+}
+
+#second{
+    color: rgb(20, 19, 19);
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 44px;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 5px 10px 2px rgb(131, 70, 180);
+    text-align: center;
+    letter-spacing: 20px;
+    word-spacing: 40px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(10, 10, 9);
+    line-height: 50px;
+    text-indent: 50px;
+    font-weight: bold;
+
+}
+
+/*body{
+    background-color: darkcyan;
+    background-image: url('image1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+    background-attachment: fixed;
+}*/
+
+ul{
+    list-style: square;
+    text-align: center;
+    list-style-image: url("");
+    text-align: center ;
+    list-style-position:inside;
+}
