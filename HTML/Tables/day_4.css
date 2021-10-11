@@ -1,0 +1,91 @@
+.list{
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: none;
+
+}
+
+.list a{
+
+    font-size: 2rem;
+    text-decoration: none;
+
+}
+
+a:link{
+    background-color: cornflowerblue;
+
+}
+
+a:visited{
+
+    color: crimson;
+    background-color: darkcyan;
+    
+
+}
+
+a:hover{
+
+    background-color: darkolivegreen;
+    color: dodgerblue;
+}
+
+a:focus{
+
+    color: firebrick;
+    font-weight: bold;
+    background-color: floralwhite;
+
+}
+
+a:active{
+
+    background-color: gold;
+    color: indianred;
+}
+
+.heading{
+    text-align: center;
+}
+.heading:hover{
+    background-color: darkslategray;
+    color: whitesmoke;
+
+}
+
+.img{
+    display: block;
+    margin: auto;    
+
+}
+
+table{
+    width: 75%;
+    text-align: center;
+    margin-top: 100px;
+    margin: auto;
+    background-color:teal;
+    color: whitesmoke;
+
+}
+
+thead{
+    background-color: rgb(79, 79, 47);
+    color: white;
+    
+
+table,th,td{
+
+    border: 1px solid black;
+    border-collapse:collapse ;
+    padding: 10px;
+
+}
+
+tr:hover{
+    background-color: lightskyblue;
+    color: dark;
+
+
+}
