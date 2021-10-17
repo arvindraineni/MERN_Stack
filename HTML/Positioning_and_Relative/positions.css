@@ -1,0 +1,59 @@
+
+
+h/*1{
+    position: relative;
+    top: 100px;
+    color: darkorange;
+}
+
+h2{
+    position: relative;
+    top: 200px;
+}
+
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    margin: auto;
+    position: relative;
+}
+
+.child1, .child2, .child3{
+    width: 100px;
+    height: 200px;
+}
+
+.child1{
+    background-color: cornflowerblue;
+    position: relative;
+    top: 300px;
+}
+
+.child2{
+    background-color: crimson;
+    position: absolute;
+}
+
+.child3{
+    background-color: darkorange;
+
+}
+*/
+
+
+
+.main{
+    position: fixed;
+    width: 200px;
+}
+
+.img-2{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+}
+
+body{
+    height: 3000px;
+}

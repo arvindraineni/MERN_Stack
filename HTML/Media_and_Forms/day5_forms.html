@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="day5_forms.css">
+</head>
+<body>
+    <h1 class="heading">Forms Demo</h1>
+    <hr>
+
+    <!-- login form -->
+    <form class="loginform">
+        <!-- username -->
+
+        <div>
+            <label for="un">Username</label>
+            <input type="text" name="username" id="un" autocomplete="off" placeholder="username is required">
+        </div>
+
+        <!-- password -->
+
+        <div>
+            <label for="pw">Password</label>
+            <input type="text" name="password" id="pw" autocomplete="off" placeholder="password is required">
+
+        </div>
+
+        <!-- salary -->
+
+        <div>
+            <label for="sal">Salary</label>
+            <input type="text" name="salary" id="sal" autocomplete="off" placeholder="salary is required">
+
+        </div>
+
+        <!-- date -->
+
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="text" name="dob" id="dob" placeholder="dd-mm-yyy">
+
+        </div>
+
+        <!-- email -->
+
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" autocomplete="off" placeholder="email is required">
+
+        </div>
+
+        <!-- state -->
+        <div>
+            <label for="state">Select your state</label>
+            <select name="state" id="state">
+                <option value="">--select a state</option>
+                <option value="telangana">Telangana</option>
+                <option value="telangana">Andhra Pradesh</option>
+                <option value="telangana">Karnataka</option>
+            </select>
+        </div>
+        
+        <!-- feedback -->
+        <div>
+            <label for="fb">Feedback</label>
+            <textarea name="feedback" id="fb" rows="7"></textarea>
+        </div>
+
+        <!-- profile pic -->
+        <div>
+            <label for="file">Select profile image</label>
+            <input type="file" name="profile" id="file"></textarea>
+        </div>
+
+        <!-- skills -->
+        <div>
+            <label for=""> Select your skills</label>
+            <div>
+                <input type="checkbox" name="html" id="html">
+                <label for="html">HTML</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="JS" id="JS">
+                <label for="JS">JavaScript</label>
+            </div>
+
+            <!-- Gender -->
+
+            <div>
+
+                <label for=""> Choose Gender</label>
+
+                <div>
+                    <input type="radio" name="gender" id="radio">
+                    <label for="radio">Male</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="gender" id="radio">
+                    <label for="radio">Female</label>
+                </div>
+
+            </div>
+        </div>
+        <!-- login button -->
+        <button class="btn" type="button">Login</button>
+
+    </form>
+
+    
+    
+</body>
+</html>
